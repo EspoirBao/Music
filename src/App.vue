@@ -20,7 +20,13 @@
 </template>
 <script>
 import Vue from "vue";
-export default {};
+export default {
+  data() {
+    return {
+      active: 'Home',
+    };
+  }
+};
 </script>
 <style lang="scss">
 #app {
@@ -41,17 +47,8 @@ export default {};
     color: #fff;
     font-size: 24px;
   }
-  .L{
-    
-  }
-  .R{
 
-  }
 
 }
-#nav {
-  
-  
- 
-}
+
 </style>
